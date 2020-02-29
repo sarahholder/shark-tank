@@ -10,6 +10,7 @@ const buildGraveyard =()=> {
             domString += '<div class="card person-card">';
             domString += '<div class ="card-body">';
             domString += `<h5 class="card-title">${person.name}</h5>`;
+            domString += `<button id=${person.id} class="btn btn-success revive-btn">Revive</button>`;
             domString += `</div>`;
             domString += `</div>`;
             domString += `</div>`;
